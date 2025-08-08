@@ -186,7 +186,8 @@ When you have modals or cookie banners on screen, you should get rid of them bef
 
 def main():
     # Load environment variables
-    load_dotenv()
+    # For example to use an OpenAI model, create a local .env file with OPENAI_API_KEY="<your_open_ai_key_here>"
+    load_dotenv() 
 
     # Parse command line arguments
     args = parse_arguments()
